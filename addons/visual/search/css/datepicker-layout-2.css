@@ -1,0 +1,134 @@
+/* datepicker
+----------------------------------*/
+#nd_rst_search_l2_datepicker .ui-datepicker {
+	width: 100%;
+	padding: 0px;
+	display: none;
+}
+
+#nd_rst_search_l2_datepicker .ui-datepicker .ui-datepicker-header {
+	position: relative;
+	padding: 15px 10px;
+}
+#nd_rst_search_l2_datepicker .ui-datepicker .ui-datepicker-prev,
+#nd_rst_search_l2_datepicker .ui-datepicker .ui-datepicker-next {
+	position: absolute;
+}
+#nd_rst_search_l2_datepicker .ui-datepicker .ui-datepicker-prev{
+	left: 20px;
+    top: 24px;
+}
+#nd_rst_search_l2_datepicker .ui-datepicker .ui-datepicker-next{
+	right: 40px;
+	top: 24px;
+}
+#nd_rst_search_l2_datepicker .ui-datepicker .ui-datepicker-prev span {
+	background-image: url(../../../../assets/img/arrow-left.png);	
+}
+#nd_rst_search_l2_datepicker .ui-datepicker .ui-datepicker-next span {
+	background-image: url(../../../../assets/img/arrow-right.png);	
+}
+#nd_rst_search_l2_datepicker .ui-datepicker .ui-datepicker-prev span,
+#nd_rst_search_l2_datepicker .ui-datepicker .ui-datepicker-next span {
+	display: block;
+    position: absolute;
+    left: 0%;
+    margin-left: 0px;
+    top: 50%;
+    margin-top: -7px;
+    padding: 2px 5px;
+    font-size: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 7px;
+    width: 10px;
+    height: 13px;
+    font-size: 0px;
+}
+#nd_rst_search_l2_datepicker .ui-datepicker .ui-datepicker-title {
+	margin: 0px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+#nd_rst_search_l2_datepicker .ui-datepicker .ui-datepicker-title select {
+	font-size: 1em;
+	margin: 1px 0;
+}
+#nd_rst_search_l2_datepicker .ui-datepicker select.ui-datepicker-month,
+#nd_rst_search_l2_datepicker .ui-datepicker select.ui-datepicker-year {
+	width: 45%;
+	height: auto;
+}
+#nd_rst_search_l2_datepicker .ui-datepicker table {
+	width: 100%;
+	font-size: .9em;
+	border-collapse: collapse;
+	margin:0px;
+}
+#nd_rst_search_l2_datepicker .ui-datepicker th {
+	padding: 0px;
+    text-align: center;
+    font-weight: bold;
+    border: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#nd_rst_search_l2_datepicker .ui-datepicker td {
+	border: 0;
+	padding: 5px;
+}
+#nd_rst_search_l2_datepicker .ui-datepicker td span,
+#nd_rst_search_l2_datepicker .ui-datepicker td a {
+	display: block;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 12px;
+}
+#nd_rst_search_l2_datepicker .ui-datepicker .ui-datepicker-buttonpane {
+	background-image: none;
+	margin: .7em 0 0 0;
+	padding: 0 .2em;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+#nd_rst_search_l2_datepicker .ui-datepicker .ui-datepicker-buttonpane button {
+	float: right;
+	margin: .5em .2em .4em;
+	cursor: pointer;
+	padding: .2em .6em .3em .6em;
+	width: auto;
+	overflow: visible;
+}
+#nd_rst_search_l2_datepicker .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+	float: left;
+}
+
+
+
+/*dark style
+#nd_rst_search_l2_datepicker .ui-datepicker { background-color: #2d2d2d; }
+#nd_rst_search_l2_datepicker .ui-datepicker .ui-datepicker-prev,
+#nd_rst_search_l2_datepicker .ui-datepicker .ui-datepicker-next { background-color: #2d2d2d; }
+#nd_rst_search_l2_datepicker .ui-datepicker .ui-datepicker-prev span,
+#nd_rst_search_l2_datepicker .ui-datepicker .ui-datepicker-next span { color: #ffffff; }
+#nd_rst_search_l2_datepicker .ui-datepicker .ui-datepicker-title { color: #fff; }
+#nd_rst_search_l2_datepicker .ui-datepicker th { color: #9ea3a7; }*/
+
+/*light style*/
+#nd_rst_search_l2_datepicker .ui-datepicker { background-color: #fff; }
+#nd_rst_search_l2_datepicker .ui-datepicker .ui-datepicker-title { border-bottom: 1px solid #f1f1f1; }
+#nd_rst_search_l2_datepicker .ui-datepicker td.ui-state-disabled span { opacity: 0.8; }
+#nd_rst_search_l2_datepicker .ui-datepicker td a.ui-state-active { color: #fff; }
+
